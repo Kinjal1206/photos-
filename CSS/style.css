@@ -3,11 +3,33 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+body{
+    overflow-x:hidden ;
     box-sizing: border-box;
+
+}
+.navbar{
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+.navbar-collapse ul li a:hover{
+    border-bottom: white !important; 
+
 }
 h1, h2{
     font-family: 'Caveat', cursive;
     font-weight: bolder;
+    color: #ff4500 ;
+}
+.bg-color{
+    background-color:#ff7f50  ;
+}
+.font-color{
+    color: #ff4500 ;
 }
 
 
@@ -16,13 +38,20 @@ h1, h2{
     height: 500px;
 
 }
+.about button{
+    background-color:#ff7f50;
+}
 .about img{
     width: 80%;
     height: 450px;
 }
-.card-title img{
-    width: 15%;
-    height: 50px;
+
+.card :hover{
+    background-color:#ff7f50;
+}
+
+.card-title {
+    font-size: 35px;
 }
 
 .team img{
