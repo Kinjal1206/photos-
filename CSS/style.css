@@ -14,8 +14,15 @@ body{
     font-family: 'Caveat', cursive;
     font-weight: bolder;
     font-size: 30px;
-    color: white;
+    
 }
+.nav-link{
+    color: black !important;
+}
+.nav-link:hover{
+    color: #ff4500 !important;
+}
+
 .navbar-collapse ul li a:hover{
     border-bottom: white !important; 
 
@@ -40,31 +47,53 @@ h1, h2{
 }
 .about button{
     background-color:#ff7f50;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
 .about img{
     width: 80%;
     height: 450px;
 }
-
 .card :hover{
     background-color:#ff7f50;
 }
-
 .card-title {
     font-size: 35px;
 }
-
 .team img{
     height: 200px;
     width: 80%;
 }
-
 .contact img{
     height: 300px;
     width: 50%;
     outline: 2px solid;
     outline-offset: 5px;
-    
-
 }
-
+.accordion-button:not(.collapsed)
+{
+    color: white !important;
+    background-color: #ff4500 !important;
+}
+.card:hover
+{
+    color: white;
+}
+.card .text-muted:hover{
+    color: whitesmoke !important;
+}
+.card:hover .card-link{
+    color: white;
+}
+.Services{
+    background-color: #FFE6B2;
+}
+form .btn{
+    background-color: #ff7f50;
+    color: white;
+}
+.footer{
+    background-color: #ff7f50;
+    color: white !important;
+}
